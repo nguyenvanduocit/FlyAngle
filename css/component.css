@@ -1,0 +1,30 @@
+/* Miyagi! */
+.angel{
+    position: relative; /*independent on scroll*/
+}
+.angel {
+    width: 162px;
+    height: 111px;
+    background: transparent url(../img/angel_sprite_v0.02.png) 0 0 no-repeat;
+    z-index: 99999;
+    display: none;
+    cursor: pointer;
+}
+
+.speech-balloon {
+    background: #fff;
+    padding: 5px;
+    position: absolute;
+    bottom: 128px;
+    max-width: 200px;
+    text-align: center;
+    cursor: default;
+    background: transparent;
+}
+
+#birdContainerr{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    pointer-events:none;
+}
